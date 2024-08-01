@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    <h1>QR Code Generator</h1>
+    <img id="qrImage" src="" alt="" style="display:none; height:auto; width:auto;">
+    <form id="qrForm">
+        <input type="text" id="URL" name="URL" placeholder="Enter your URL">
+        <button type="submit">Submit</button>
+    </form>
+
+    <p class="msg"></p>
+    <a id="downloadLink" href="" download="qr_img.png" style="display:none;">
+        <button>Download QR Code</button>
+    </a>
+    
+    <p id="author">By Mohamed Affan</p>
+
+    </div>
+
+    <script src="./index.js"></script>
+    
+</body>
+</html>

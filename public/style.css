@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #11c59190;
+    height: 500px;
+    width: 400px;
+    border-radius: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#author{
+    font-size: 10px;
+    position: fixed;
+    margin-top: 470px;
+}
